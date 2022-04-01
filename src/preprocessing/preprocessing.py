@@ -7,7 +7,7 @@ from preprocessing.constants import DATA_DIRECTORY, TRAIN_FILE, ATTRIBUTES_FILE,
 def join_attributes(df):
     name = df['name']
     val = df['value']
-    if 'Bullet' in name:
+    if 'Bullet' in name:  # remove "Bullet01", "Bullet02", etc.
         name = ''
     return name + ' ' + val
 
