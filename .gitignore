@@ -131,6 +131,8 @@ dmypy.json
 # editor stuff
 .idea/
 
+.DS_Store
+
 # project
 data/*.csv
 data/*.zip
